@@ -3,25 +3,29 @@
 
   <head><!-- where all the meta data will go, like and files we need to include -->
     <title>My Little Rainbow</title><!-- the title is what appears on your tab -->
-  </head>
+      <link rel="stylesheet" type="text/css" href="./main.css" />
+    </head>
 
   <body><!-- the body element is where everything we will see on the page will go -->
-
+    Decimal Numbers:      0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+    Hexadecimal Numbers:  0, 1, 2, 3, 4, 5, 6, 7, 8, 9,  a,  b,  c,  d,  e,  f, 10
     <!-- our soon to be beautiful rainbow! -->
     <div> <!-- the grandest grandparent div -->
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div></div> <!-- the grandest child div -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+      
+                <div>* {
+                  color: red; /* color in CSS refers to font color */
+                } /* all elements will have red font */<div>
+                  <!-- the parent element -->
+                  <p></p>
+                  <!-- the first sibling element/the first child-->
+                  <p></p>
+                  <!-- the second sibling element/the second child -->
+                <div id="red">...</div> <!-- the grandest child div -->
+                #red {
+                  /* this selects any elements with the red id */
+                  border-top-color: #f00;
+                }
+                </div>
   </body>
 
 </html>
